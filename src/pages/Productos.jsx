@@ -1,21 +1,28 @@
-import { useParams } from "react-router-dom";
-import { celulares } from "../data/data";
-import CardCelular from "../components/CardCelular";
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import { celulares, marcas } from '../data/data';
+import CardCelular from '../components/CardCelular';
 
-function Productos() {
+const Productos = () => {
   const { idMarca } = useParams();
-  const celularesFiltrados = idMarca ? celulares.filter(c => c.marcaId === parseInt(idMarca)) : celulares;
+
+  let listaFiltrada = celulares;
+  if (idMarca) {
+    listaFiltrada = celulares.filter(cel => cel.marcaId === parseInt(idMarca));
+  }
+
+  const marcaNombre = idMarca ? marcas.find(m => m.id === parseInt(idMarca))?.nombre : null;
 
   return (
-    <div>
-      <h1>Productos</h1>
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-        {celularesFiltrados.map(celular => (
+    <div className="page productos">
+      <h1>{marcaNombre ? `Productos de ${marcaNombre}` : 'Todos los Productos'}</h1>
+      <div className="productos-grid">
+        {listaFiltrada.map(celular => (
           <CardCelular key={celular.id} celular={celular} />
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Productos;

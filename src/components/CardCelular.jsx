@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function CardCelular({ celular }) {
+const CardCelular = ({ celular }) => {
   return (
-    <div style={{ border: '1px solid #ccc', padding: '1rem', margin: '1rem', width: '250px' }}>
-      <img src={celular.fotos[0]} alt={celular.nombre} style={{ width: '100%' }} />
+    <div className="card-celular">
+      <img src={celular.fotos[0]} alt={celular.nombre} />
       <h3>{celular.nombre}</h3>
-      <p>${celular.precio}</p>
-      <Link to={`/productos/detalle/${celular.id}`}>Ver Detalle</Link>
+      <p>Precio: ${celular.precio}</p>
+      <Link to={`/productos/detalle/${celular.id}`} className="ver-detalle">Ver detalle</Link>
     </div>
-  )
-}
+  );
+};
 
 export default CardCelular;
