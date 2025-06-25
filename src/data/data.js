@@ -13,9 +13,9 @@ export const celulares = [
     precio: 1299,
     marcaId: 1,
     fotos: [
-      'https://example.com/iphone14pro-1.jpg',
-     'https://example.com/iphone14pro-2.jpg',
-     'https://example.com/iphone14pro-3.jpg'
+      'https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-14-Pro/Deep-Purple/Apple-iPhone-14-Pro-Deep-Purple-rightimage.png',
+     'https://i5.walmartimages.com/seo/Used-Apple-iPhone-14-Pro-Max-256GB-Deep-Purple-Unlocked-MQ8W3LL-A-Used-Good-Condition_cb8f75e5-1b8e-4c06-9776-0d995a314ada.88ab53492f6fe7e653033585616419b1.jpeg',
+     'https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111850_iphone-14_1.png'
     ]
   },
   {
@@ -25,7 +25,7 @@ export const celulares = [
     precio: 999,
     marcaId: 1,
     fotos: [
-      'https://via.placeholder.com/300x200?text=iPhone13-1',
+      'https://i.pinimg.com/474x/f0/a1/a4/f0a1a42625d9a59d0d7e3f81da39eab1.jpg',
       'https://via.placeholder.com/300x200?text=iPhone13-2',
       'https://via.placeholder.com/300x200?text=iPhone13-3'
     ]
