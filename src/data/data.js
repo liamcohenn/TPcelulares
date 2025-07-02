@@ -26,8 +26,8 @@ export const celulares = [
     marcaId: 1,
     fotos: [
       'https://i.pinimg.com/474x/f0/a1/a4/f0a1a42625d9a59d0d7e3f81da39eab1.jpg',
-      'https://via.placeholder.com/300x200?text=iPhone13-2',
-      'https://via.placeholder.com/300x200?text=iPhone13-3'
+      'https://www.ventasrosario.com.ar/wp-content/uploads/2021/10/Apple-iPhone-13-colors-lineup-2022-1.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXhOFBs4GmCi8uelL8MyMW5lmjKT34b31_AA&s'
     ]
   },
   {
@@ -37,9 +37,9 @@ export const celulares = [
     precio: 499,
     marcaId: 1,
     fotos: [
-      'https://via.placeholder.com/300x200?text=iPhoneSE-1',
-      'https://via.placeholder.com/300x200?text=iPhoneSE-2',
-      'https://via.placeholder.com/300x200?text=iPhoneSE-3'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZrpKS1xSch_3KI-31kWCH3R8cM-Xkp94gw&s',
+      'https://www.infobae.com/resizer/v2/OTHN6NYYDFAUHF2ZXWDTNL73B4.jpg?auth=8b324950b2d3264fdc3db5508b958d0854ae7f4fefb3eb724db0b555b58c322a&smart=true&width=350&height=467&quality=85',
+      'https://cdn.myshoptet.com/usr/www.iphonarna.cz/user/shop/big/7302_apple-iphone-se--2020--64gb-white.png?6387f80d'
     ]
   },
   {
@@ -49,9 +49,9 @@ export const celulares = [
     precio: 999,
     marcaId: 2,
     fotos: [
-      'https://via.placeholder.com/300x200?text=GalaxyS23-1',
-      'https://via.placeholder.com/300x200?text=GalaxyS23-2',
-      'https://via.placeholder.com/300x200?text=GalaxyS23-3'
+      'https://ferbi.com.ar/web/image/product.image/12669/image_1024/Celular%20Samsung%20S23%20Plus%20Reacondicionado?unique=9005ade',
+      'https://m.media-amazon.com/images/I/51rn1JNGsvL._AC_SL1200_.jpg',
+      'https://smselectronic.com/wp-content/uploads/2023/05/sm-s911_galaxys23_3-3.jpg'
     ]
   },
   {
@@ -61,9 +61,9 @@ export const celulares = [
     precio: 1199,
     marcaId: 2,
     fotos: [
-      'https://via.placeholder.com/300x200?text=GalaxyS22Ultra-1',
-      'https://via.placeholder.com/300x200?text=GalaxyS22Ultra-2',
-      'https://via.placeholder.com/300x200?text=GalaxyS22Ultra-3'
+      'https://m.media-amazon.com/images/I/41Kbg+dKxdL._UF350,350_QL80_.jpg',
+      'https://images.samsung.com/is/image/samsung/p6pim/ar/2202/gallery/ar-galaxy-s22-ultra-s908-sm-s908ezkmaro-530923173?$684_547_PNG$',
+      'https://i5.walmartimages.com/seo/Open-Box-Samsung-Galaxy-S22-Ultra-5G-SM-S908U1-128GB-Bronze-US-Model-Factory-Unlocked-Cell-Phone_0b4b7166-2688-4e0c-954d-539d5ea29ad9.5946110fe2a2c21cda0b256e2969a555.jpeg'
     ]
   },
   {
@@ -73,9 +73,9 @@ export const celulares = [
     precio: 399,
     marcaId: 2,
     fotos: [
-      'https://via.placeholder.com/300x200?text=GalaxyA54-1',
-      'https://via.placeholder.com/300x200?text=GalaxyA54-2',
-      'https://via.placeholder.com/300x200?text=GalaxyA54-3'
+      'https://tiendadiggit.com.ar/web/image/product.image/2401/image_1024/Celular%20Samsung%20Galaxy%20A54?unique=21563dd',
+      'https://stylewatch.vtexassets.com/arquivos/ids/239902-800-800?v=638304101031770000&width=800&height=800&aspect=true',
+      'https://www.clevercel.co/cdn/shop/files/Caracteristicas_diseno_samsung_galaxy_a54_68c06aa5-5f04-4dc4-9f9f-c9aa9024394d_1024x1024.webp?v=1734323760'
     ]
   },
   {
@@ -85,9 +85,9 @@ export const celulares = [
     precio: 899,
     marcaId: 3,
     fotos: [
-      'https://via.placeholder.com/300x200?text=Xiaomi13Pro-1',
-      'https://via.placeholder.com/300x200?text=Xiaomi13Pro-2',
-      'https://via.placeholder.com/300x200?text=Xiaomi13Pro-3'
+      'https://puntonaranja.com.gt/wp-content/uploads/2024/02/XiaRedmiNote13Pro4GNegro_1.png',
+      'https://ar.celulares.com/fotos/xiaomi-redmi-note-13-pro-97398-g.jpg',
+      'https://www.clarin.com/2022/12/13/I4sUQTFHl_720x0__1.jpg'
     ]
   },
   {
@@ -97,9 +97,9 @@ export const celulares = [
     precio: 399,
     marcaId: 3,
     fotos: [
-      'https://via.placeholder.com/300x200?text=RedmiNote12Pro-1',
-      'https://via.placeholder.com/300x200?text=RedmiNote12Pro-2',
-      'https://via.placeholder.com/300x200?text=RedmiNote12Pro-3'
+      'https://www.abc.cl/dw/image/v2/BCPP_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf35e5244/images/large/1CC26727294.jpg?sw=1200&sh=1200&sm=fit',
+      'https://www.cactus.md/i.ashx?i=/i/products/26/130316.jpg&w=790',
+      'https://i.blogs.es/84c91b/redmi-note-12-pro-speed/650_1200.jpg'
     ]
   },
   {
@@ -109,9 +109,9 @@ export const celulares = [
     precio: 499,
     marcaId: 3,
     fotos: [
-      'https://via.placeholder.com/300x200?text=PocoF5-1',
-      'https://via.placeholder.com/300x200?text=PocoF5-2',
-      'https://via.placeholder.com/300x200?text=PocoF5-3'
+      'https://cdn.movertix.com/media/catalog/product/cache/image/1200x/x/i/xiaomi-poco-f5-5g-dual-sim-blue-256gb-and-8gb-ram-back.jpg',
+      'https://cellumarket.com.ar/img/Public/1172/58434-producto-poco-f5.jpg',
+      'https://bioscomputacion.com.ar/img/Public/1161/29101-producto-copia-de-feed-33-auriculares-42-1.jpg'
     ]
   },
   {
@@ -121,9 +121,9 @@ export const celulares = [
     precio: 699,
     marcaId: 4,
     fotos: [
-      'https://via.placeholder.com/300x200?text=Edge40-1',
-      'https://via.placeholder.com/300x200?text=Edge40-2',
-      'https://via.placeholder.com/300x200?text=Edge40-3'
+      'https://riiing.com.ar/wp-content/uploads/2024/01/Moto-Edge-40-Neo-04-1024x1024.png',
+      'https://armoto.vtexassets.com/arquivos/ids/165164-800-auto?v=638774018596870000&width=800&height=auto&aspect=true',
+      'https://www.notebookcheck.org/fileadmin/Notebooks/News/_nc3/edg40allcolours.jpg'
     ]
   },
   {
@@ -133,9 +133,9 @@ export const celulares = [
     precio: 299,
     marcaId: 4,
     fotos: [
-      'https://via.placeholder.com/300x200?text=MotoG73-1',
-      'https://via.placeholder.com/300x200?text=MotoG73-2',
-      'https://via.placeholder.com/300x200?text=MotoG73-3'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ01G3rIFJB5PNIdemxGaoeIXlA7i35Z_57g&s',
+      'https://insumaxinformatica.com.ar/img/Public/1073/48809-producto-1080-x-1080-25.jpg',
+      'https://www.masmotorola.es/wp-content/uploads/sites/12/2023/04/movil8-1-1.webp'
     ]
   },
   {
@@ -145,9 +145,9 @@ export const celulares = [
     precio: 1199,
     marcaId: 4,
     fotos: [
-      'https://via.placeholder.com/300x200?text=Razr40Ultra-1',
-      'https://via.placeholder.com/300x200?text=Razr40Ultra-2',
-      'https://via.placeholder.com/300x200?text=Razr40Ultra-3'
+      'https://www.tease-shop.de/out/pictures/master/product/3/15939155000-3.jpg',
+      'https://offlinetecnologia.com.ar/3363-large_default/840023247163.jpg',
+      'https://www.clarin.com/2023/06/01/-3FBjaBUY_720x0__1.jpg'
     ]
   }
 ];
