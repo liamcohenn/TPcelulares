@@ -1,0 +1,58 @@
+.card-celular {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 24px;
+}
+
+.card-celular:hover {
+  transform: scale(1.02);
+}
+
+.img-wrapper {
+  width: 180px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.card-celular h3 {
+  font-size: 1.1rem;
+  margin: 10px 0 5px;
+}
+
+.card-celular p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.ver-detalle {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.ver-detalle:hover {
+  background-color: #0056b3;
+}

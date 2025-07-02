@@ -16,17 +16,23 @@ const Home = () => {
         <h2>Destacados de la semana</h2>
         <div className="destacados-grid">
           <div className="card">
-            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-max-deep-purple-select?wid=800&hei=800&fmt=jpeg&qlt=90&.v=1660753619946" alt="iPhone 14 Pro" />
+            <div className="img-wrapper">
+            <img src="https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/Apple-iPhone-14-Pro/Deep-Purple/Apple-iPhone-14-Pro-Deep-Purple-rightimage.png" alt="iPhone 14 Pro" />
+            </div>
             <h3>iPhone 14 Pro</h3>
             <p>Potencia. Diseño. Cámara de última generación.</p>
           </div>
           <div className="card">
-            <img src="https://images.samsung.com/is/image/samsung/p6pim/es/galaxy-s22-ultra-s908-sm-s908ezkalgo-frontgreen-thumb-530421289?$720_576_PNG$" alt="Galaxy S22 Ultra" />
+            <div className="img-wrapper">
+            <img src="https://tienda.personal.com.ar/images/720/webp/S22_Ultra_Green_Back_min_32a53f5644.png" alt="Galaxy S22 Ultra" />
+            </div>
             <h3>Galaxy S22 Ultra</h3>
             <p>Experiencia profesional con S-Pen incluido.</p>
           </div>
           <div className="card">
-            <img src="https://i01.appmifile.com/images/2022/08/25/0adf33f5-5a91-4c42-8b43-fdd9810f4f45.jpg" alt="Redmi Note 12 Pro" />
+            <div className="img-wrapper">
+            <img src="https://static.vecteezy.com/system/resources/previews/025/273/747/non_2x/xiaomi-redmi-note-12-pro-plus-5g-mockup-free-png.png" alt="Redmi Note 12 Pro" />
+            </div>
             <h3>Redmi Note 12 Pro</h3>
             <p>Alto rendimiento a un precio accesible.</p>
           </div>

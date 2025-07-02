@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { celulares, marcas } from '../data/data';
 import CardCelular from '../components/CardCelular';
+import './Productos.css'; // Asegurate de importar los estilos
 
 const Productos = () => {
   const { idMarca } = useParams();
@@ -14,14 +15,16 @@ const Productos = () => {
   const marcaNombre = idMarca ? marcas.find(m => m.id === parseInt(idMarca))?.nombre : null;
 
   return (
-    <div className="page productos">
-      <h1>{marcaNombre ? `Productos de ${marcaNombre}` : 'Todos los Productos'}</h1>
-      <div className="productos-grid">
-        {listaFiltrada.map(celular => (
-          <CardCelular key={celular.id} celular={celular} />
-        ))}
+    <main className="productos-main">
+      <div className="productos-container">
+        <h1>{marcaNombre ? `Productos de ${marcaNombre}` : 'Todos los Productos'}</h1>
+        <div className="productos-grid">
+          {listaFiltrada.map(celular => (
+            <CardCelular key={celular.id} celular={celular} />
+          ))}
+        </div>
       </div>
-    </div>
+    </main>
   );
 };
 
