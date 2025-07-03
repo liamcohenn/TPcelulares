@@ -1,25 +1,38 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { celulares, marcas } from '../data/data';
 import CardCelular from '../components/CardCelular';
-import './Productos.css'; // Asegurate de importar los estilos
+import './Productos.css';
 
 const Productos = () => {
   const { idMarca } = useParams();
 
-  let listaFiltrada = celulares;
-  if (idMarca) {
-    listaFiltrada = celulares.filter(cel => cel.marcaId === parseInt(idMarca));
-  }
+  const [listaFiltrada, setListaFiltrada] = useState(celulares);
+  const [marcaNombre, setMarcaNombre] = useState(null);
 
-  const marcaNombre = idMarca ? marcas.find(m => m.id === parseInt(idMarca))?.nombre : null;
+  useEffect(() => {
+    if (idMarca) {
+      
+      const productosFiltrados = celulares.filter(
+        (cel) => cel.marcaId === parseInt(idMarca)
+      );
+      setListaFiltrada(productosFiltrados);
+
+      const marca = marcas.find((m) => m.id === parseInt(idMarca));
+      setMarcaNombre(marca ? marca.nombre : null);
+    } else {
+      
+      setListaFiltrada(celulares);
+      setMarcaNombre(null);
+    }
+  }, [idMarca]); 
 
   return (
     <main className="productos-main">
       <div className="productos-container">
         <h1>{marcaNombre ? `Productos de ${marcaNombre}` : 'Todos los Productos'}</h1>
         <div className="productos-grid">
-          {listaFiltrada.map(celular => (
+          {listaFiltrada.map((celular) => (
             <CardCelular key={celular.id} celular={celular} />
           ))}
         </div>
@@ -29,3 +42,4 @@ const Productos = () => {
 };
 
 export default Productos;
+
